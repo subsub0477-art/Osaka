@@ -4,34 +4,146 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>오사카 · 교토 여행 일정 (2026.12.1 – 12.4)</title>
+
 <style>
-body{margin:0;background:#f3ede6;font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
-main{max-width:1030px;margin:0 auto;display:flex;flex-direction:column;gap:16px;padding:16px 0}
-.day{position:relative;line-height:0}
-.day img{width:100%;height:auto;display:block}
-.map{position:absolute;display:block;border-radius:8px;outline:2px solid transparent;transition:outline-color .15s,background .15s}
-.map:hover,.map:focus-visible{outline-color:#b3262c;background:rgba(179,38,44,.08)}
-.map span{position:absolute;right:8px;bottom:8px;line-height:1.2;font-size:13px;font-weight:600;color:#fff;background:#b3262c;padding:6px 10px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.25)}
+body{
+  margin:0;
+  background:#f3ede6;
+  font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+}
+
+main{
+  max-width:1030px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  padding:16px 0;
+}
+
+.day{
+  position:relative;
+  line-height:0;
+}
+
+.day img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+.map{
+  position:absolute;
+  display:block;
+  border-radius:8px;
+  outline:2px solid transparent;
+  transition:outline-color .15s,background .15s;
+  cursor:pointer;
+}
+
+.map:hover,
+.map:focus-visible{
+  outline-color:#b3262c;
+  background:rgba(179,38,44,.08);
+}
+
+.map span{
+  position:absolute;
+  right:8px;
+  bottom:8px;
+  line-height:1.2;
+  font-size:13px;
+  font-weight:600;
+  color:#fff;
+  background:#b3262c;
+  padding:6px 10px;
+  border-radius:6px;
+  box-shadow:0 2px 6px rgba(0,0,0,.25);
+}
 </style>
 </head>
+
 <body>
+
 <main>
+
+  <!-- 1일차 -->
   <section class="day">
     <img src="images/day1.png" alt="1일차 오사카 일정 (2026.12.1)">
-    <a class="map" href="https://www.google.com/maps/d/u/0/embed?mid=1lfv7n0_Nj0hq1PTTT_dshaFrjRHQaRc&ehbc=2E312F" target="_blank" rel="noopener" aria-label="1일차 구글 지도 열기" style="left:58.1%;top:16%;width:41.6%;height:32.7%"><span>지도 열기 ↗</span></a>
+
+    <div class="map"
+         role="link"
+         tabindex="0"
+         onclick="openMap('1lfv7n0_Nj0hq1PTTT_dshaFrjRHQaRc')"
+         style="left:58.1%;top:16%;width:41.6%;height:32.7%">
+      <span>지도 열기 ↗</span>
+    </div>
   </section>
+
+
+  <!-- 2일차 -->
   <section class="day">
     <img src="images/day2.png" alt="2일차 오사카 일정 (2026.12.2)">
-    <a class="map" href="https://www.google.com/maps/d/u/0/embed?mid=1Exp8dGsm5b5vQVyEqULD-En4rzA_S4g&amp;ehbc=2E312F" target="_blank" rel="noopener" aria-label="2일차 구글 지도 열기" style="left:59.2%;top:15.6%;width:40.6%;height:39.7%"><span>지도 열기 ↗</span></a>
+
+    <div class="map"
+         role="link"
+         tabindex="0"
+         onclick="openMap('1Exp8dGsm5b5vQVyEqULD-En4rzA_S4g')"
+         style="left:59.2%;top:15.6%;width:40.6%;height:39.7%">
+      <span>지도 열기 ↗</span>
+    </div>
   </section>
+
+
+  <!-- 3일차 -->
   <section class="day">
     <img src="images/day3.png" alt="3일차 교토 일정 (2026.12.3)">
-    <a class="map" href="https://www.google.com/maps/d/u/0/embed?mid=1ynbvpgQEC_j0TSRW5BcfKwihqAcXb5c&amp;ehbc=2E312F" target="_blank" rel="noopener" aria-label="3일차 구글 지도 열기" style="left:59.2%;top:14.5%;width:40.5%;height:31.6%"><span>지도 열기 ↗</span></a>
+
+    <div class="map"
+         role="link"
+         tabindex="0"
+         onclick="openMap('1ynbvpgQEC_j0TSRW5BcfKwihqAcXb5c')"
+         style="left:59.2%;top:14.5%;width:40.5%;height:31.6%">
+      <span>지도 열기 ↗</span>
+    </div>
   </section>
+
+
+  <!-- 4일차 -->
   <section class="day">
     <img src="images/day4.png" alt="4일차 오사카성 · 귀국 일정 (2026.12.4)">
-    <a class="map" href="https://www.google.com/maps/d/u/0/embed?mid=1BbtVbtXC8G0j4PHdI1UldrGIGI8PMrU&amp;ehbc=2E312F" target="_blank" rel="noopener" aria-label="4일차 구글 지도 열기" style="left:58.1%;top:14.5%;width:41.6%;height:34%"><span>지도 열기 ↗</span></a>
+
+    <div class="map"
+         role="link"
+         tabindex="0"
+         onclick="openMap('1BbtVbtXC8G0j4PHdI1UldrGIGI8PMrU')"
+         style="left:58.1%;top:14.5%;width:41.6%;height:34%">
+      <span>지도 열기 ↗</span>
+    </div>
   </section>
+
 </main>
+
+
+<script>
+function openMap(mid){
+  const url =
+    'https://www.google.com/maps/d/viewer?mid=' +
+    encodeURIComponent(mid);
+
+  window.open(url, '_blank', 'noopener,noreferrer');
+}
+
+/* 키보드 Enter 지원 */
+document.querySelectorAll('.map').forEach(function(el){
+  el.addEventListener('keydown', function(e){
+    if(e.key === 'Enter' || e.key === ' '){
+      e.preventDefault();
+      el.click();
+    }
+  });
+});
+</script>
+
 </body>
 </html>
